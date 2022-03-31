@@ -3,6 +3,7 @@ using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ using X.PagedList;
 
 namespace CoreDemo.Areas.Admin.Controllers
 {
+    [AllowAnonymous]
     [Area("Admin")]
     public class CategoryController : Controller
     {
