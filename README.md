@@ -1,3 +1,3 @@
-# Dinamik-Blog
+# Dynamic Blog Project
 C#, Asp.Net Core Mvc, ,Asp.Net Web Api,
-Sql-Server ,Entity Framework,Linq,Ajax teknolojileri kullanılarak admin,kullanıcı ve yazar panellerinin olduğu dinamik blog projesinin yapımı-devam ediyor..
+Construction of dynamic blog project with admin, user and author panels using Sql-Server, Entity Framework, Linq, Ajax technologies
